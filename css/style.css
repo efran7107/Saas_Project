@@ -1,3 +1,10 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+}
+
 .nav {
     display: flex;
     flex-direction: row;
@@ -40,4 +47,68 @@
     font-weight: 700;
     font-size: var(--size-12);
     line-height: 15px;
+}
+
+.bottom-header {
+    display: flex;
+}
+
+.bottom-header .left-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px 0px 60px;
+    gap: 30px;
+}
+
+.logo-icon {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px;
+    position: absolute;
+    width: 80px;
+    height: 80px;
+}
+
+.logo-icon .google-a,
+.logo-icon .google {
+    width: 60px;
+    height: 60px;
+}
+
+.asana {
+    left: 380px;
+    top: 10px;
+}
+
+.atlassian {
+    left: 175px;
+    top: 10px;
+}
+
+.calandar {
+    left: 364px;
+    top: 310px;
+}
+
+.google-a {
+    left: 155px;
+    top: 290px;
+}
+
+.google {
+    left: 64px;
+    top: 10px;
+}
+
+.paypal {
+    left: 44px;
+    top: 172px;
+}
+
+.weave {
+    left: 262px;
+    top: 172px;
 }
