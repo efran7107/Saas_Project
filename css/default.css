@@ -1,7 +1,11 @@
 :root {
     --white: #fff;
     --black: #000;
-    --font-color-base: #677788;
+    --font-color-base: #E1E7EF;
+    --font-color-dark: #677788;
+    --font-color-light: #D9D9D9;
+    --font-color-link: #2476FF;
+    --hire-us: #20335B;
 }
 
 html {
