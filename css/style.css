@@ -11,6 +11,16 @@
     height: 46px;
 }
 
-.nav .navbar {
+.navigation {
     display: flex;
+    align-items: center;
+    padding: 6px 14px;
+    gap: var(--size-30);
+}
+
+.navigation .navbar {
+    display: flex;
+    align-items: flex-start;
+    padding: 0;
+    gap: var(--size-20);
 }
