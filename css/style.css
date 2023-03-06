@@ -31,3 +31,13 @@
     line-height: 17px;
     color: var(--font-color-dark);
 }
+
+.navigation .buy-now-btn {
+    padding: 15px 25px;
+    background: var(--font-color-link);
+    border-radius: var(--size-30);
+    color: var(--white);
+    font-weight: 700;
+    font-size: var(--size-12);
+    line-height: 15px;
+}
