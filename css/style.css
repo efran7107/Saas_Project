@@ -24,3 +24,10 @@
     padding: 0;
     gap: var(--size-20);
 }
+
+.navigation .navbar .nav-link {
+    font-weight: 500;
+    font-size: var(--size-14);
+    line-height: 17px;
+    color: var(--font-color-dark);
+}
