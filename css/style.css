@@ -81,6 +81,11 @@
     font-size: var(--size-40);
 }
 
+.bottom-header .left-part .title h2,
+.bottom-header .left-part .title p {
+    margin: 0;
+}
+
 .bottom-header .left-part .actions {
     display: flex;
     flex-direction: row;
@@ -98,10 +103,22 @@
     align-items: center;
     gap: 8px;
     font-size: var(--size-12);
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    line-height: 15px;
 }
 
 .bottom-header .left-part .actions .play-circle i {
     font-size: 18px;
+    line-height: 18px;
+}
+
+.bottom-header .left-part .actions .learn-more {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: var(--size-14);
+    line-height: 17px;
+    color: var(--font-color-link);
 }
 
 .bottom-header .right-part {
