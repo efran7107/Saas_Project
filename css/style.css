@@ -52,6 +52,7 @@
 .bottom-header {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(477px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(446px, 1fr));
     gap: var(--size-10);
     padding: 40px 30px 0px;
 }
@@ -78,6 +79,29 @@
     color: var(--black);
     font-family: 'Inter', sans-serif;
     font-size: var(--size-40);
+}
+
+.bottom-header .left-part .actions {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+}
+
+.bottom-header .left-part .actions .play-circle {
+    background: var(--font-color-link);
+    padding: 15px 25px;
+    border-radius: 30px;
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: var(--size-12);
+}
+
+.bottom-header .left-part .actions .play-circle i {
+    font-size: 18px;
 }
 
 .bottom-header .right-part {
