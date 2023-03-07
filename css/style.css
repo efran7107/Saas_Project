@@ -55,6 +55,7 @@
     grid-template-rows: repeat(auto-fit, minmax(27.875rem, 1fr));
     gap: var(--size-10);
     padding: var(--size-40) var(--size-30) 0px;
+    height: 446px;
 }
 
 .bottom-header .left-part {
