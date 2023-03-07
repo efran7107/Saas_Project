@@ -10,18 +10,18 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 30px;
+    padding: .625rem 1.875rem;
 }
 
 .nav .brand-logo {
-    width: 155px;
-    height: 46px;
+    width: 9.6875rem;
+    height: 2.875rem;
 }
 
 .navigation {
     display: flex;
     align-items: center;
-    padding: 6px 14px;
+    padding: .375rem .875rem;
     gap: var(--size-30);
 }
 
@@ -35,7 +35,7 @@
 .navigation .navbar .nav-link {
     font-weight: 500;
     font-size: var(--size-14);
-    line-height: 17px;
+    line-height: 1.0625rem;
     color: var(--font-color-dark);
 }
 
@@ -51,8 +51,8 @@
 
 .bottom-header {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(477px, 1fr));
-    grid-template-rows: repeat(auto-fit, minmax(446px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(29.8125rem, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(27.875rem, 1fr));
     gap: var(--size-10);
     padding: var(--size-40) var(--size-30) 0px;
 }
@@ -96,8 +96,8 @@
 
 .bottom-header .left-part .actions .play-circle {
     background: var(--font-color-link);
-    padding: 15px 25px;
-    border-radius: 30px;
+    padding: .9375rem 1.5625rem;
+    border-radius: var(--size-30);
     color: var(--white);
     display: flex;
     align-items: center;
@@ -105,19 +105,19 @@
     font-size: var(--size-12);
     font-weight: 500;
     font-family: 'Inter', sans-serif;
-    line-height: 15px;
+    line-height: .9375rem;
 }
 
 .bottom-header .left-part .actions .play-circle i {
-    font-size: 18px;
-    line-height: 18px;
+    font-size: 1.125rem;
+    line-height: 1.125rem;
 }
 
 .bottom-header .left-part .actions .learn-more {
     font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: var(--size-14);
-    line-height: 17px;
+    line-height: 1.0625rem;
     color: var(--font-color-link);
 }
 
@@ -129,54 +129,54 @@
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    padding: 16px;
+    padding: 1rem;
     position: absolute;
-    width: 80px;
-    height: 80px;
+    width: 5rem;
+    height: 5rem;
     background: var(--white);
-    box-shadow: 0px 3px 13px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px .1875rem .8125rem rgba(0, 0, 0, 0.25);
     border-radius: var(--size-40);
 }
 
 .logo-icon.google-a,
 .logo-icon.google {
-    width: 60px;
-    height: 60px;
+    width: 3.75rem;
+    height: 3.75rem;
 }
 
 .asana {
-    left: 380px;
-    top: 10px;
+    left: 23.75rem;
+    top: .625rem;
 }
 
 .atlassian {
-    left: 175px;
-    top: 10px;
+    left: 10.9375rem;
+    top: .625rem;
 }
 
 .calandar {
-    left: 364px;
-    top: 310px;
+    left: 22.75rem;
+    top: 19.375rem;
 }
 
 .google-a {
-    left: 155px;
-    top: 290px;
+    left: 9.6875rem;
+    top: 18.125rem;
 }
 
 .google {
-    left: 64px;
-    top: 10px;
+    left: 4rem;
+    top: .625rem;
 }
 
 .paypal {
-    left: 44px;
-    top: 172px;
+    left: 2.75rem;
+    top: 10.75rem;
 }
 
 .weave {
-    left: 262px;
-    top: 172px;
+    left: 16.375rem;
+    top: 10.75rem;
 }
 
 .container.backdrop {
@@ -187,14 +187,14 @@
     z-index: -1;
     position: absolute;
     top: 0;
-    width: 1024px;
-    height: 517px;
+    width: 64rem;
+    height: 32.3125rem;
 }
 
 .background-container .background {
     position: absolute;
-    width: 884.5px;
-    height: 517px;
+    width: 55.2813rem;
+    height: 32.3125rem;
     left: 0px;
     top: 0px;
     background: linear-gradient(312.73deg, rgba(217, 217, 217, 0.44) 17.61%, rgba(217, 217, 217, 0) 55.85%);
@@ -204,20 +204,20 @@
 .background-container .object-1 {
     position: absolute;
     right: 0;
-    width: 316px;
-    height: 443px;
+    width: 20.8438rem;
+    height: 27.6875rem;
     top: 0px;
-    border-left: 172px solid transparent;
-    border-bottom: 443px solid #E1E7EF;
+    border-left: 9.875rem solid transparent;
+    border-bottom: 27.6875rem solid #E1E7EF;
     z-index: -2;
 }
 
 .background-container .object-2 {
     position: absolute;
-    width: 1024px;
-    height: 517px;
+    width: 64rem;
+    height: 32.3125rem;
     bottom: 0px;
-    border-bottom: 123px solid white;
-    border-left: 1024px solid transparent;
+    border-bottom: 7.6875rem solid white;
+    border-left: 64rem solid transparent;
     z-index: -1;
 }
