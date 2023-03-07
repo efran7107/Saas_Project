@@ -76,6 +76,25 @@ img {
     margin-right: auto;
 }
 
+.play-circle {
+    background: var(--font-color-link);
+    padding: .9375rem 1.5625rem;
+    border-radius: var(--size-30);
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    font-size: var(--size-12);
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    line-height: .9375rem;
+}
+
+.play-circle i {
+    font-size: 1.125rem;
+    line-height: 1.125rem;
+}
+
 @media (min-width: 760px) {
     .pricing-table,
     .testimonial-grid,
