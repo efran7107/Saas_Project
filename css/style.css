@@ -126,9 +126,6 @@
 }
 
 .logo-icon {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
     padding: 1rem;
     position: absolute;
     width: 5rem;
@@ -142,39 +139,40 @@
 .logo-icon.google {
     width: 3.75rem;
     height: 3.75rem;
+    padding: var(--size-10);
 }
 
-.asana {
+.logo-icon.asana {
     left: 23.75rem;
     top: .625rem;
 }
 
-.atlassian {
+.logo-icon.atlassian {
     left: 10.9375rem;
     top: .625rem;
 }
 
-.calandar {
+.logo-icon.calandar {
     left: 22.75rem;
     top: 19.375rem;
 }
 
-.google-a {
+.logo-icon.google-a {
     left: 9.6875rem;
     top: 18.125rem;
 }
 
-.google {
+.logo-icon.google {
     left: 4rem;
     top: .625rem;
 }
 
-.paypal {
+.logo-icon.paypal {
     left: 2.75rem;
     top: 10.75rem;
 }
 
-.weave {
+.logo-icon.weave {
     left: 16.375rem;
     top: 10.75rem;
 }
@@ -203,12 +201,12 @@
 
 .background-container .object-1 {
     position: absolute;
-    right: 0;
-    width: 20.8438rem;
-    height: 27.6875rem;
+    right: 45px;
+    width: 316px;
+    height: 443px;
     top: 0px;
-    border-left: 9.875rem solid transparent;
-    border-bottom: 27.6875rem solid #E1E7EF;
+    border-left: 158px solid transparent;
+    border-bottom: 443px solid #E1E7EF;
     z-index: -2;
 }
 
