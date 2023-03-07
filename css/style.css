@@ -81,6 +81,10 @@
     font-size: var(--size-40);
 }
 
+.bottom-header .left-part .title p {
+    color: var(--font-color-dark);
+}
+
 .bottom-header .left-part .title h2,
 .bottom-header .left-part .title p {
     margin: 0;
@@ -218,4 +222,37 @@
     border-bottom: 7.6875rem solid white;
     border-left: 64rem solid transparent;
     z-index: -1;
+}
+
+.key-benefits-section .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 120px 0px 80px 60px;
+    gap: 60px;
+}
+
+.key-benefits-section .container .benefits-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 60px;
+}
+
+.key-benefits-section .container .benefits-title h3 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    color: var(--black);
+    line-height: 1.9669rem;
+    margin: 0;
+}
+
+.key-benefits-section .container .benefits-title p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--font-color-dark);
 }
