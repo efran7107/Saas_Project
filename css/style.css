@@ -304,3 +304,74 @@
     font-size: 12px;
     line-height: 15px;
 }
+
+.software {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 30px 80px;
+    gap: 10px;
+}
+
+.banner-content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    background-color: #f8fafe;
+    width: 964px;
+    height: 470px;
+}
+
+.left-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10px 30px;
+    gap: 26px;
+    width: 450px;
+    height: 470px;
+}
+
+.left-part .title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 11px;
+}
+
+.left-part .title h2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 31px;
+    color: var(--black);
+    margin: 0;
+}
+
+.actions {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+}
+
+.banner-content .right-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 0px;
+    gap: 10px;
+    width: 504px;
+    height: 470px;
+}
+
+.banner-content .right-part img {
+    width: 504px;
+    height: 353px;
+}
