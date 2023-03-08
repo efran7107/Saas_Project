@@ -92,7 +92,6 @@
 
 .bottom-header .left-part .actions .learn-more,
 .key-benefits-section .responsive .card-content a {
-    font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: var(--size-14);
     line-height: 1.0625rem;
@@ -210,9 +209,6 @@
 
 .key-benefits-section .container .benefits-title { padding: 0px; }
 
-.key-benefits-section .container .benefits-title h3,
-.key-benefits-section .container .benefits-title p { font-family: 'Inter', sans-serif; }
-
 .key-benefits-section .container .benefits-title h3 {
     font-weight: 700;
     font-size: 26px;
@@ -264,11 +260,7 @@
     height: 50px;
 }
 
-.key-benefits-section .container .benefits-cards .card-content h4,
-.key-benefits-section .container .benefits-cards .card-content p {
-    margin: 0;
-    color: var(--black);
-    font-family: 'Inter', sans-serif;
+.key-benefits-section .container .benefits-cards .card-content h4 {
     font-weight: 700;
     font-size: 1rem;
 }
@@ -290,7 +282,6 @@
     background: #01C9A7;
     border-radius: 15px;
     color: var(--white);
-    font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: 12px;
     line-height: 15px;
@@ -342,11 +333,9 @@
 }
 
 .software .banner-content .left-part .title h2 {
-    font-family: 'Inter', sans-serif;
     font-weight: 500;
     font-size: 26px;
     line-height: 31px;
-    color: var(--black);
     margin: 0;
 }
 
