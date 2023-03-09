@@ -106,6 +106,66 @@ img {
     line-height: 1.125rem;
 }
 
+.header, .nav, .navigation, .navigation .navbar { display: flex; }
+
+.header, .navigation .navbar { align-items: flex-start; }
+
+.bottom-header .left-part,
+.bottom-header .left-part .title,
+.bottom-header .left-part .actions {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.bottom-header .left-part .title h2,
+.bottom-header .left-part .title p { margin: 0; }
+
+.background-container .background,
+.background-container .object-1 { top: 0px; }
+
+.background-container .background,
+.background-container .object-2{ height: 517px; }
+
+.background-container .background,
+.background-container .object-1,
+.background-container .object-2 { position: absolute; }
+
+.key-benefits-section .container .benefits-cards,
+.key-benefits-section .container .benefits-cards .card-content,
+.key-benefits-section .container .benefits-cards .responsive,
+.key-benefits-section .container .benefits-cards .card-content .with-sketch {
+    display: flex;
+    align-items: flex-start;
+}
+
+.key-benefits-section .container .benefits-cards .card-content,
+.key-benefits-section .container .benefits-cards .responsive {
+    gap: 20px;
+    flex-direction: column;
+}
+
+.key-benefits-section .container .benefits-cards,
+.key-benefits-section .container .benefits-cards .card-content .with-sketch{ flex-direction: row; }
+
+.software,
+.software .banner-content,
+.software .banner-content .left-part, 
+.software .banner-content .left-part .title,
+.software .banner-content .right-part,
+.software .banner-content .left-part .actions{ display: flex; }
+
+.software, .software .banner-content .left-part,
+.software .banner-content .left-part .title,
+.software .banner-content .right-part { flex-direction: column; }
+
+.software .banner-content,
+.software .banner-content .left-part .actions{ flex-direction: row; }
+
+.software, 
+.software .banner-content,
+.software .banner-content .left-part,
+.software .banner-content .left-part .title{ align-items: flex-start; }
 /* @media (min-width: 760px) {
     .pricing-table,
     .testimonial-grid,

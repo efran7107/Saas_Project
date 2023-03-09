@@ -1,6 +1,4 @@
-.header, .nav, .navigation, .navigation .navbar { display: flex; }
 
-.header, .navigation .navbar { align-items: flex-start; }
 
 .header {
     flex-direction: column;
@@ -56,14 +54,6 @@
     height: 446px;
 }
 
-.bottom-header .left-part,
-.bottom-header .left-part .title,
-.bottom-header .left-part .actions {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-
 .bottom-header .left-part {
     justify-content: center;
     padding: 0px 0px 3.75rem;
@@ -79,9 +69,6 @@
 .bottom-header .left-part .title h2 { font-size: var(--size-40); }
 
 .bottom-header .left-part .title p { color: var(--font-color-dark); }
-
-.bottom-header .left-part .title h2,
-.bottom-header .left-part .title p { margin: 0; }
 
 .bottom-header .left-part .actions {
     flex-direction: row;
@@ -162,16 +149,6 @@
     height: 32.3125rem;
 }
 
-.background-container .background,
-.background-container .object-1 { top: 0px; }
-
-.background-container .background,
-.background-container .object-2{ height: 517px; }
-
-.background-container .background,
-.background-container .object-1,
-.background-container .object-2 { position: absolute; }
-
 .background-container .background {
     width: 884.5008px;
     left: 0px;
@@ -224,23 +201,6 @@
     color: var(--font-color-dark);
 }
 
-.key-benefits-section .container .benefits-cards,
-.key-benefits-section .container .benefits-cards .card-content,
-.key-benefits-section .container .benefits-cards .responsive,
-.key-benefits-section .container .benefits-cards .card-content .with-sketch {
-    display: flex;
-    align-items: flex-start;
-}
-
-.key-benefits-section .container .benefits-cards .card-content,
-.key-benefits-section .container .benefits-cards .responsive {
-    gap: 20px;
-    flex-direction: column;
-}
-
-.key-benefits-section .container .benefits-cards,
-.key-benefits-section .container .benefits-cards .card-content .with-sketch{ flex-direction: row; }
-
 .key-benefits-section .container .benefits-cards {
     justify-content: center;
     padding: 10px 30px;
@@ -286,25 +246,6 @@
     font-size: 12px;
     line-height: 15px;
 }
-
-.software,
-.software .banner-content,
-.software .banner-content .left-part, 
-.software .banner-content .left-part .title,
-.software .banner-content .right-part,
-.software .banner-content .left-part .actions{ display: flex; }
-
-.software, .software .banner-content .left-part,
-.software .banner-content .left-part .title,
-.software .banner-content .right-part { flex-direction: column; }
-
-.software .banner-content,
-.software .banner-content .left-part .actions{ flex-direction: row; }
-
-.software, 
-.software .banner-content,
-.software .banner-content .left-part,
-.software .banner-content .left-part .title{ align-items: flex-start; }
 
 .software {
     padding: 0px 30px 80px;
