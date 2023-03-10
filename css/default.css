@@ -120,6 +120,75 @@ img {
     height: 2.875rem;
 }
 
+.bottom-header {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(29.8125rem, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(27.875rem, 1fr));
+    gap: var(--size-10);
+    padding: var(--size-40) var(--size-30) 0px;
+    height: 446px;
+}
+
+.bottom-header .left-part {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0px 0px 3.75rem;
+    gap: var(--size-30);
+}
+
+.bottom-header .left-part .title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: .6875rem;
+    width: 20.875rem;
+}
+
+.bottom-header .left-part .actions {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 1.5rem;
+}
+
+.key-benefits-section .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    padding: 120px 0px 80px 60px;
+}
+
+.benefits-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    padding: 0px;
+}
+
+.key-benefits-section .container .benefits-cards {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 10px 30px;
+    gap: 30px;
+}
+
+.key-benefits-section .container .benefits-cards .card-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    flex-direction: column;
+    padding: 0;
+}
+
 .play-circle {
     background: var(--font-color-link);
     padding: .9375rem 1.5625rem;
