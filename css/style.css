@@ -200,11 +200,10 @@
     display: flex;
     flex-direction: row;
     align-items: flex-start;
+    justify-content: space-between;
     padding: 0px;
     gap: 10px;
     background-color: #f8fafe;
-    width: 964px;
-    height: 470px;
 }
 
 .banner-content .left-part {
@@ -226,10 +225,12 @@
     gap: 11px;
 }
 
-.banner-content .title h2 {
+.banner-content .title h6 {
+    font-family: 'Inter';
     font-weight: 500;
-    font-size: 26px;
+    font-size: 24px;
     line-height: 31px;
+    color: var(--black);
     margin: 0;
 }
 
@@ -251,7 +252,7 @@
     height: 470px;
 }
 
-.banner-content .right-part {
+.banner-content .right-part img {
     align-self: stretch;
-    width: 504px;
+    height: 353px;
 }
