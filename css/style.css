@@ -1,35 +1,3 @@
-.header, .nav, .navigation, .navigation .navbar { display: flex; }
-
-.header, .navigation .navbar { align-items: flex-start; }
-
-.header {
-    flex-direction: column;
-    padding: 0px;
-}
-
-.navigation, .nav { align-items: center; }
-
-.nav {
-    flex-direction: row;
-    justify-content: space-between;
-    padding: .625rem 1.875rem;
-}
-
-.nav .brand-logo {
-    width: 9.6875rem;
-    height: 2.875rem;
-}
-
-.navigation {
-    padding: .375rem .875rem;
-    gap: var(--size-30);
-}
-
-.navigation .navbar {
-    padding: 0;
-    gap: var(--size-20);
-}
-
 .navigation .navbar .nav-link {
     font-weight: 500;
     font-size: var(--size-14);
@@ -76,12 +44,18 @@
     width: 20.875rem;
 }
 
-.bottom-header .left-part .title h2 { font-size: var(--size-40); }
+.bottom-header .left-part .title h2 {
+    font-size: var(--size-40);
+}
 
-.bottom-header .left-part .title p { color: var(--font-color-dark); }
+.bottom-header .left-part .title p {
+    color: var(--font-color-dark);
+}
 
 .bottom-header .left-part .title h2,
-.bottom-header .left-part .title p { margin: 0; }
+.bottom-header .left-part .title p {
+    margin: 0;
+}
 
 .bottom-header .left-part .actions {
     flex-direction: row;
@@ -98,7 +72,9 @@
     color: var(--font-color-link);
 }
 
-.bottom-header .right-part { position: relative; }
+.bottom-header .right-part {
+    position: relative;
+}
 
 .logo-icon {
     padding: 1rem;
@@ -152,7 +128,9 @@
     top: 10.75rem;
 }
 
-.container.backdrop { display: grid; }
+.container.backdrop {
+    display: grid;
+}
 
 .background-container {
     z-index: -1;
@@ -163,14 +141,20 @@
 }
 
 .background-container .background,
-.background-container .object-1 { top: 0px; }
+.background-container .object-1 {
+    top: 0px;
+}
 
 .background-container .background,
-.background-container .object-2{ height: 517px; }
+.background-container .object-2 {
+    height: 517px;
+}
 
 .background-container .background,
 .background-container .object-1,
-.background-container .object-2 { position: absolute; }
+.background-container .object-2 {
+    position: absolute;
+}
 
 .background-container .background {
     width: 884.5008px;
@@ -205,9 +189,13 @@
     gap: 60px;
 }
 
-.key-benefits-section .container { padding: 120px 0px 80px 60px; }
+.key-benefits-section .container {
+    padding: 120px 0px 80px 60px;
+}
 
-.key-benefits-section .container .benefits-title { padding: 0px; }
+.key-benefits-section .container .benefits-title {
+    padding: 0px;
+}
 
 .key-benefits-section .container .benefits-title h3 {
     font-weight: 700;
@@ -239,7 +227,9 @@
 }
 
 .key-benefits-section .container .benefits-cards,
-.key-benefits-section .container .benefits-cards .card-content .with-sketch{ flex-direction: row; }
+.key-benefits-section .container .benefits-cards .card-content .with-sketch {
+    flex-direction: row;
+}
 
 .key-benefits-section .container .benefits-cards {
     justify-content: center;
@@ -247,7 +237,9 @@
     gap: 30px;
 }
 
-.key-benefits-section .container .benefits-cards .card-content { padding: 0; }
+.key-benefits-section .container .benefits-cards .card-content {
+    padding: 0;
+}
 
 .key-benefits-section .container .benefits-cards .responsive {
     padding: 20px;
@@ -289,22 +281,31 @@
 
 .software,
 .software .banner-content,
-.software .banner-content .left-part, 
+.software .banner-content .left-part,
 .software .banner-content .left-part .title,
 .software .banner-content .right-part,
-.software .banner-content .left-part .actions{ display: flex; }
+.software .banner-content .left-part .actions {
+    display: flex;
+}
 
-.software, .software .banner-content .left-part,
+.software,
+.software .banner-content .left-part,
 .software .banner-content .left-part .title,
-.software .banner-content .right-part { flex-direction: column; }
+.software .banner-content .right-part {
+    flex-direction: column;
+}
 
 .software .banner-content,
-.software .banner-content .left-part .actions{ flex-direction: row; }
+.software .banner-content .left-part .actions {
+    flex-direction: row;
+}
 
-.software, 
+.software,
 .software .banner-content,
 .software .banner-content .left-part,
-.software .banner-content .left-part .title{ align-items: flex-start; }
+.software .banner-content .left-part .title {
+    align-items: flex-start;
+}
 
 .software {
     padding: 0px 30px 80px;
