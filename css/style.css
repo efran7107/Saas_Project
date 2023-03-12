@@ -19,7 +19,6 @@
     font-size: var(--size-40);
 }
 
-<<<<<<< HEAD
 .bottom-header .left-part {
     justify-content: center;
     padding: 0px 0px 3.75rem;
@@ -50,7 +49,6 @@
 .bottom-header .left-part .title h2,
 .bottom-header .left-part .title p {
     margin: 0;
->>>>>>> f72908a4bea25f212511daad76f1204a1c48e177
 }
 
 .bottom-header .right-part {
@@ -280,4 +278,12 @@
 .banner-content .right-part img {
     align-self: stretch;
     height: 353px;
+}
+
+.why-front .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 0px 5rem;
+    gap: 2.5rem;
 }
