@@ -54,7 +54,6 @@ a {
 p {
     margin-top: 0;
     color: var(--font-color-dark);
-    
     font-family: 'Inter', sans-serif;
 }
 
@@ -73,9 +72,8 @@ h4 {
 }
 
 img {
-    width: 100%;
+    max-height: 100%;
     max-width: 100%;
-    vertical-align: middle;
     border-style: none;
 }
 
@@ -85,6 +83,117 @@ img {
     padding-right: 0.9375rem;
     margin-left: auto;
     margin-right: auto;
+}
+
+.header {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 0px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: .625rem 1.875rem;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    padding: .375rem .875rem;
+    gap: var(--size-30);
+}
+
+.navigation .navbar {
+    display: flex;
+    align-items: flex-start;
+    padding: 0;
+    gap: var(--size-20);
+}
+
+.nav .brand-logo {
+    width: 9.6875rem;
+    height: 2.875rem;
+}
+
+.bottom-header {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(29.8125rem, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(27.875rem, 1fr));
+    gap: var(--size-10);
+    padding: var(--size-40) var(--size-30) 0px;
+    height: 446px;
+}
+
+.bottom-header .left-part {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0px 0px 3.75rem;
+    gap: var(--size-30);
+}
+
+.bottom-header .left-part .title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: .6875rem;
+    width: 20.875rem;
+}
+
+.bottom-header .left-part .actions {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 1.5rem;
+}
+
+.bottom-header .left-part .actions .learn-more,
+.responsive a {
+    font-weight: 700;
+    font-size: var(--size-14);
+    line-height: 1.0625rem;
+    color: var(--font-color-link);
+}
+
+.key-benefits-section .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    padding: 120px 0px 80px 60px;
+}
+
+.benefits-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    padding: 0px;
+}
+
+.benefits-cards {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 10px 30px;
+    gap: 30px;
+}
+
+.card-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    flex-direction: column;
+    padding: 0;
 }
 
 .play-circle {
@@ -106,66 +215,6 @@ img {
     line-height: 1.125rem;
 }
 
-.header, .nav, .navigation, .navigation .navbar { display: flex; }
-
-.header, .navigation .navbar { align-items: flex-start; }
-
-.bottom-header .left-part,
-.bottom-header .left-part .title,
-.bottom-header .left-part .actions {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-
-.bottom-header .left-part .title h2,
-.bottom-header .left-part .title p { margin: 0; }
-
-.background-container .background,
-.background-container .object-1 { top: 0px; }
-
-.background-container .background,
-.background-container .object-2{ height: 517px; }
-
-.background-container .background,
-.background-container .object-1,
-.background-container .object-2 { position: absolute; }
-
-.key-benefits-section .container .benefits-cards,
-.key-benefits-section .container .benefits-cards .card-content,
-.key-benefits-section .container .benefits-cards .responsive,
-.key-benefits-section .container .benefits-cards .card-content .with-sketch {
-    display: flex;
-    align-items: flex-start;
-}
-
-.key-benefits-section .container .benefits-cards .card-content,
-.key-benefits-section .container .benefits-cards .responsive {
-    gap: 20px;
-    flex-direction: column;
-}
-
-.key-benefits-section .container .benefits-cards,
-.key-benefits-section .container .benefits-cards .card-content .with-sketch{ flex-direction: row; }
-
-.software,
-.software .banner-content,
-.software .banner-content .left-part, 
-.software .banner-content .left-part .title,
-.software .banner-content .right-part,
-.software .banner-content .left-part .actions{ display: flex; }
-
-.software, .software .banner-content .left-part,
-.software .banner-content .left-part .title,
-.software .banner-content .right-part { flex-direction: column; }
-
-.software .banner-content,
-.software .banner-content .left-part .actions{ flex-direction: row; }
-
-.software, 
-.software .banner-content,
-.software .banner-content .left-part,
-.software .banner-content .left-part .title{ align-items: flex-start; }
 /* @media (min-width: 760px) {
     .pricing-table,
     .testimonial-grid,
@@ -173,6 +222,7 @@ img {
         max-width: 720px;
     }
 } */
+
 
 /* @media (min-width: 992px) {
     footer .container {
