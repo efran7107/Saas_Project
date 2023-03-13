@@ -312,3 +312,29 @@
     font-size: var(--size-16);
     line-height: 1.5rem;
 }
+
+.bullet {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.625rem 0px;
+    gap: 1.5rem;
+}
+
+.bullet-circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: var(--size-50);
+    height: var(--size-50);
+    background: #ECF2FF;
+    border-radius: 1.5625rem;
+}
+
+.bullet-circle-inner {
+    background: #0066FF;
+    width: .375rem;
+    height: .375rem;
+    border-radius: .1875rem;
+}
