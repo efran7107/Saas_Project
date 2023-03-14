@@ -424,7 +424,8 @@
     height: 414px;
     background-image: url(../saas-project-assets/banners/banner_two.jpg);
     background-repeat: no-repeat;
-    background-size: 904px;
+    background-size: 917px 418px;
+    background-position-x: -13px; 
     position: absolute;
     z-index: -1;
 }
