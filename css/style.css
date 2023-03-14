@@ -475,3 +475,17 @@
     color: var(--font-color-dark);
     margin: 0rem;
 }
+
+.trusted-by h5 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: var(--size-20);
+    line-height: 1.5125rem;
+    text-align: center;
+    color: #5F6368;
+    margin-top: 0px;
+}
+
+.brands-list img {
+    height: 40px;
+}
