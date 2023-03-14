@@ -388,6 +388,9 @@
 
 .banner-frame {
     position: relative;
+    width: 964px;
+    height: 497px;
+    padding: 0px 30px 80px;
 }
 
 .play-button {
@@ -411,4 +414,18 @@
     font-size: 20px;
     line-height: 20px;
     color: var(--black);
+}
+
+.img-container {
+    position: relative;
+}
+
+.img-container .img {
+    width: 964px;
+    height: 414px;
+    background-image: url(../saas-project-assets/banners/banner_two.jpg);
+    background-repeat: no-repeat;
+    background-size: 904px;
+    position: absolute;
+    z-index: -1;
 }
