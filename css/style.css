@@ -298,6 +298,7 @@
     align-items: center;
     padding: 0px;
     gap: 10px;
+    width: 600px;
 }
 
 .why-front-title h2 {
@@ -311,6 +312,14 @@
     font-weight: 500;
     font-size: var(--size-16);
     line-height: 1.5rem;
+    text-align: center;
+}
+
+.bullet-list {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px 2.125rem;
 }
 
 .bullet {
@@ -320,6 +329,36 @@
     align-items: center;
     padding: 1.625rem 0px;
     gap: 1.5rem;
+}
+
+.bullet-top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 4px;
+}
+
+.bullet-top:before {
+    content: "";
+    display: block;
+    background: #E6E9F2;
+    width: 90.5px;
+    height: 1px;
+}
+
+.bullet-top:after {
+    content: "";
+    display: block;
+    background: #E6E9F2;
+    width: 90.5px;
+    height: 1px;
+}
+
+.last-bullet .bullet-top::after,
+.first-bullet .bullet-top::before {
+    content: "";
+    background: transparent;
 }
 
 .bullet-circle {
@@ -337,4 +376,12 @@
     width: .375rem;
     height: .375rem;
     border-radius: .1875rem;
+}
+
+.bullet-title p {
+    color: black;
+    font-weight: 500;
+    font-size: var(--size-16);
+    line-height: 1.1875rem;
+    text-align: center;
 }
