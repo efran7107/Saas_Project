@@ -459,3 +459,19 @@
     line-height: 2rem;
     color: var(--black);
 }
+
+.hubspot-right .person h5 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 1.125rem;
+    line-height: 1.375rem;
+    color: var(--black);
+    margin: 0px;
+}
+
+.hubspot-right .person p {
+    font-weight: 700;
+    font-size: 14px;
+    color: var(--font-color-dark);
+    margin: 0rem;
+}
