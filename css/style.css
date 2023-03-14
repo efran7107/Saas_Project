@@ -287,28 +287,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-<<<<<<< HEAD
-    padding: 0rem 0rem 5rem;
-    gap: var(--size-40);
-=======
     padding: 0px 0px 5rem;
     gap: 2.5rem;
->>>>>>> b5b7549efb293e7adf5e73d0e2281da1c2d50df0
 }
 
 .why-front-title {
     display: flex;
     flex-direction: column;
     align-items: center;
-<<<<<<< HEAD
-    padding: 0rem;
-    gap: var(--size-10);
-}
-
-.why-front-title h2 {
-    margin: 0;
-    line-height: 1.9669rem;
-=======
     padding: 0px;
     gap: 10px;
     width: 600px;
@@ -441,5 +427,4 @@
     background-size: 904px;
     position: absolute;
     z-index: -1;
->>>>>>> b5b7549efb293e7adf5e73d0e2281da1c2d50df0
 }
