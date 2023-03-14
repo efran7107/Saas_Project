@@ -429,3 +429,33 @@
     position: absolute;
     z-index: -1;
 }
+
+.hubspot-left .dots,
+.hubspot-left .hubspot-img {
+    position: absolute;
+}
+
+.hubspot-left .dots{
+    width: 200px;
+    height: 369.28px;
+    left: 28px;
+    top: 111px;
+}
+
+.hubspot-left .hubspot-img {
+    width: 371px;
+    height: 425px;
+    left: 81px;
+    top: 0px
+}
+
+.hubspot-right img {
+    width: 6.25rem;
+}
+
+.hubspot-right p {
+    font-weight: 500;
+    font-size: 1.375rem;
+    line-height: 2rem;
+    color: var(--black);
+}
