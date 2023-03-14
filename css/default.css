@@ -257,6 +257,31 @@ img {
     gap: .25rem;
 }
 
+.brands-section .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 0px 5rem;
+    gap: 2.8125rem;
+}
+
+.trusted-by {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: .625rem;
+}
+
+.brands-list {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0px 30px;
+    gap: 100px;
+}
+
 /* @media (min-width: 760px) {
     .pricing-table,
     .testimonial-grid,
