@@ -290,7 +290,7 @@ img {
     gap: 3.75rem;
 }
 
-.plan-features-list {
+.plans-features-list {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -298,7 +298,7 @@ img {
     gap: var(--size-30);
 }
 
-.plan-features-list .plan {
+.plans-features-list .plan {
     display: flex;
     flex-direction: column;
     justify-content: center;
