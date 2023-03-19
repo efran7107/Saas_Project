@@ -582,7 +582,8 @@
     padding: var(--size-20);
     gap: var(--size-20);
     width: 16.4375rem;
-    height: 15.0625rem;
+    background-color: var(--white);
+    border: 1px solid #fff;
 }
 
 .plan-feature-Item .item-content {
@@ -599,10 +600,19 @@
 }
 
 .item-content h5 {
-    margin: .625rem;
+    margin: .625rem 0 0;
     font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: var(--size-18);
     line-height: 1.375rem;
     color: var(--black);
+}
+
+.with-sketch h5 {
+    font-size: var(--size-16);
+}
+
+.item-content p {
+    font-size: var(--size-14);
+    line-height: 1.5rem;
 }
