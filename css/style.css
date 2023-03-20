@@ -750,3 +750,111 @@
     background: var(--white);
     border-radius: var(--size-10);
 }
+
+.form .form-data {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0rem;
+    gap: 1.25rem;
+}
+
+.form .form-data h5 {
+    font-weight: 700;
+    font-size: var(--size-16);
+    line-height: 1.5rem;
+    color: var(--black);
+}
+
+.form-data .form-group {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: var(--size-20);
+}
+
+.form-group #first-name,
+.form-group #last-name,
+.form-group #budget,
+.form-group #country {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: var(--size-10);
+    gap: var(--size-10);
+    width: 11.625rem;
+    height: 2.75rem;
+    border: 1px solid #e6e8f2;
+    border-radius: .3125rem;
+}
+
+.form-group #budget,
+.form-group #country {
+    justify-content: space-between;
+    padding: var(--size-10) var(--size-16) var(--size-10) var(--size-10);
+}
+
+.form-data .text-area {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: var(--size-10);
+    width: 24.5rem;
+    height: var(--size-150);
+}
+
+.text-area #tell-us::placeholder {
+    font-family: 'Open Sans';
+    font-weight: 510;
+    font-size: var(--size-14);
+    line-height: 1.375rem;
+    color: #828282;
+}
+
+.form-data .confirmation {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+}
+
+.confirmation .input {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: .25rem 0px 0px;
+    gap: var(--size-10);
+    width: 1.5625rem;
+    height: 1.75rem;
+}
+
+.confirmation #input {
+    width: 1.5625rem;
+    height: 1.5rem;
+    border-radius: .1875rem;
+}
+
+.confirmation .label {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0rem;
+    gap: var(--size-10);
+}
+
+.confirmation .label label {
+    font-weight: 510;
+    font-size: var(--size-14);
+    line-height: 1.375rem;
+    color: var(--black)
+}
+
+.label .privacy {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0rem;
+    gap: 1.75rem;
+}
