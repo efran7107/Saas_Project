@@ -640,6 +640,8 @@
     align-items: flex-start;
     padding: 0rem 0rem 0rem 4.375rem;
     gap: 3.75rem;
+    height: 44.25rem;
+    width: 32.1563rem;
 }
 
 .left-area .top,
@@ -654,6 +656,12 @@
 
 .top .hire-us-title {
     gap: 2.125rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0rem;
+    width: 11.25rem;
 }
 
 .hire-us-title .title {
@@ -739,6 +747,8 @@
     align-items: flex-start;
     padding: var(--size-30);
     gap: var(--size-10);
+    width: 32.125rem;
+    height: 44.25rem;
 }
 
 .right-area .form {
@@ -749,6 +759,8 @@
     gap: 2.3125rem;
     background: var(--white);
     border-radius: var(--size-10);
+    height: 40.5rem;
+    width: 28.4063rem;
 }
 
 .form .form-data {
@@ -764,6 +776,7 @@
     font-size: var(--size-16);
     line-height: 1.5rem;
     color: var(--black);
+    margin: 0;
 }
 
 .form-data .form-group {
@@ -795,7 +808,8 @@
     padding: var(--size-10) var(--size-16) var(--size-10) var(--size-10);
 }
 
-.form-data .text-area {
+.form-data .text-area #tell-us {
+    box-sizing: border-box;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -857,4 +871,37 @@
     align-items: flex-start;
     padding: 0rem;
     gap: 1.75rem;
+}
+
+.privacy .ajax {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0rem;
+    border-bottom: 1px dashed var(--font-color-dark);
+}
+
+.privacy .ajax-link {
+    border-bottom: 1px dashed var(--font-color-link);
+}
+
+.ajax a {
+    font-weight: 700;
+    font-size: var(--size-14);
+    line-height: 1.375rem;
+    color: var(--font-color-dark);
+}
+
+.ajax .link {
+    color: var(--font-color-link);
+}
+
+.form .actions {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 1.5rem;
+    width: 7.3125rem;
+    height: 2.8125rem;
 }
