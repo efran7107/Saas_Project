@@ -711,3 +711,42 @@
     line-height: 1.375rem;
     color: var(--white);
 }
+
+.bottom .person-images {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0rem;
+    gap: var(--size-30);
+}
+
+.person-images .woman-two,
+.person-images .woman-one {
+    width: var(--size-40);
+    height: var(--size-40);
+    border-radius: var(--size-20);
+}
+
+.person-images .man-one {
+    width: 3.75rem;
+    height: 3.75rem;
+    border-radius: 1.875rem;
+}
+
+.hire .right-area {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: var(--size-30);
+    gap: var(--size-10);
+}
+
+.right-area .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: var(--size-30);
+    gap: 2.3125rem;
+    background: var(--white);
+    border-radius: var(--size-10);
+}
