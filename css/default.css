@@ -336,15 +336,6 @@ img {
 }
 
 
-/* @media (min-width: 760px) {
-    .pricing-table,
-    .testimonial-grid,
-    .footer-bottom-wrapper {
-        max-width: 720px;
-    }
-} */
-
-
 /* @media (min-width: 992px) {
     footer .container {
         max-width: 960px;
@@ -354,5 +345,11 @@ img {
 @media (min-width: 1024px) {
     .container {
         max-width: 1024px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 768px;
     }
 }
