@@ -15,6 +15,10 @@
     line-height: .9375rem;
 }
 
+[aria-controls="navbarDropdown"] {
+    display: none;
+}
+
 .bottom-header .left-part .title h2 {
     font-size: var(--size-40);
 }
@@ -1020,4 +1024,86 @@
 
 .footer-option:nth-child(2) li:nth-child(2) a {
     color: var(--font-color-link);
+}
+
+.main-footer .container hr {
+    height: 1px;
+    width: 60.375rem;
+    color: #e6e9f2;
+}
+
+.main-footer .container .frame-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    gap: var(--size-40);
+}
+
+.frame-3 .social-links,
+.social-links .site-map,
+.social-links .social-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 13.25rem;
+    width: 60.375rem;
+}
+
+.social-links .site-map {
+    align-items: flex-start;
+    gap: .375rem;
+    justify-content: unset;
+}
+
+.social-links .social-buttons {
+    align-items: flex-end;
+    justify-content: unset;
+    gap: var(--size-20);
+}
+
+.social-buttons button,
+.social-buttons select {
+    width: var(--size-30);
+    height: var(--size-30);
+    background-color: #ECF2FF;
+    border-radius: .3125rem;
+    border-style: none;
+    font-weight: 400;
+    font-size: var(--size-14);
+    line-height: var(--size-16);
+    color: var(--font-color-dark);
+}
+
+.social-buttons select {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 10.5rem;
+    padding: 0px .8125rem;
+    color: var(--black);
+}
+
+.frame-3 .all-rights {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 21px;
+}
+
+.all-rights p {
+    font-weight: 510;
+    font-size: var(--size-14);
+    line-height: 1.0625rem;
+    margin: 0px;
+}
+
+.all-rights p:nth-child(2) {
+    text-align: center;
+    line-height: 1.375rem;
+    width: 43.75rem;
 }
