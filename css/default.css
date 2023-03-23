@@ -47,14 +47,21 @@ ul {
 }
 
 a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
     text-decoration: none;
     font-family: 'Inter', sans-serif;
+    color: #677788;
 }
 
 p {
     margin-top: 0;
     color: var(--font-color-dark);
     font-family: 'Inter', sans-serif;
+    font-weight: 500;
 }
 
 h2 {
@@ -85,82 +92,23 @@ img {
     margin-right: auto;
 }
 
-.header {
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-    padding: 0px;
-}
-
-.nav {
+.with-sketch {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    padding: .625rem 1.875rem;
-}
-
-.navigation {
-    display: flex;
-    align-items: center;
-    padding: .375rem .875rem;
-    gap: var(--size-30);
-}
-
-.navigation .navbar {
-    display: flex;
     align-items: flex-start;
-    padding: 0;
-    gap: var(--size-20);
-}
-
-.nav .brand-logo {
-    width: 9.6875rem;
-    height: 2.875rem;
-}
-
-.bottom-header {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(29.8125rem, 1fr));
-    grid-template-rows: repeat(auto-fit, minmax(27.875rem, 1fr));
+    align-items: center;
+    padding: 0px;
     gap: var(--size-10);
-    padding: var(--size-40) var(--size-30) 0px;
-    height: 446px;
 }
 
-.bottom-header .left-part {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    padding: 0px 0px 3.75rem;
-    gap: var(--size-30);
-}
-
-.bottom-header .left-part .title {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    gap: .6875rem;
-    width: 20.875rem;
-}
-
-.bottom-header .left-part .actions {
-    display: flex;
-    align-items: flex-start;
-    flex-direction: row;
-    align-items: center;
-    padding: 0px;
-    gap: 1.5rem;
-}
-
-.bottom-header .left-part .actions .learn-more,
-.responsive a {
+.with-sketch a {
+    padding: 4px 10px;
+    background: #01C9A7;
+    border-radius: 15px;
+    color: var(--white);
     font-weight: 700;
-    font-size: var(--size-14);
-    line-height: 1.0625rem;
-    color: var(--font-color-link);
+    font-size: var(--size-12);
+    line-height: 15px;
 }
 
 .key-benefits-section .container {
