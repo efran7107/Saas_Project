@@ -92,6 +92,19 @@
     line-height: 1.0625rem;
 }
 
+.play{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0rem;
+    gap: 1.5rem;
+}
+
+.play a:nth-child(2) {
+    color: var(--font-color-link);
+    font-weight: 700;
+}
+
 .right-part {
     position: relative;
     width: 29.8125rem;
