@@ -1,14 +1,61 @@
-/* .header .container {
+.header .container {
     position: relative;
-} */
+}
 
-/* .for-ground {
+.background{
     position: absolute;
-    width: 64rem;
-    height: 33.25rem;
-    left: 0px;
-    top: 0px;
-} */
+    /* background: linear-gradient(312.73deg, rgba(217, 217, 217, 0.44) 17.61%, rgba(217, 217, 217, 0) 55.85%); */
+    border-right: 139px solid #e1E7EF;
+    width: 1023.5px;
+    height: 32.3125rem;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.background .gradient {
+    background: linear-gradient(312.73deg, rgba(217, 217, 217, 0.44) 17.61%, rgba(217, 217, 217, 0) 55.85%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 884.5px;
+    height: 517px;
+}
+
+.background .right-border {
+    position: absolute;
+    border-left: 158px solid transparent;
+    border-bottom: 443px solid #E1E7EF;
+    right: 0;
+}
+
+.background .bottom-border {
+    position: absolute;
+  bottom: 0px;
+  border-left: 1023.5px solid transparent;
+  border-bottom: 122px solid white;
+}
+
+.navbar-toggler {
+    display: block;
+    position: absolute;
+    right: var(--size-20);
+    top: var(--size-10);
+    outline: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+  }
+  
+  .navbar-toggler span {
+    color: var(--font-color-dark);
+    font-size: var(--size-20);
+    cursor: pointer;
+    pointer-events: none;
+  }
+
+[aria-controls="navbarDropdown"] {
+    display: none;
+  }
 
 .for-ground,
 .for-ground .logo {
@@ -69,6 +116,8 @@
     justify-content: center;
     padding: 0px 0px 3.75rem;
     gap: var(--size-30);
+    width: 29.8125rem;
+    height: 25.375rem;
 }
 
 .left-part .title {
@@ -90,6 +139,7 @@
 .title p {
     font-size: var(--size-14);
     line-height: 1.0625rem;
+    margin: 0;
 }
 
 .play{
@@ -98,6 +148,8 @@
     align-items: center;
     padding: 0rem;
     gap: 1.5rem;
+    width: 29.8125rem;
+    height: 3rem;
 }
 
 .play a:nth-child(2) {

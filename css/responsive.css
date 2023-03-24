@@ -1,4 +1,59 @@
 @media screen and (max-width: 768px) {
-    
+    .background {
+        width: 48rem;
+        border-right: 6.375rem solid #e1E7EF;
+    }
 
+    .background .gradient {
+        width: 41.625rem;
+    }
+
+    .background .right-border {
+        border-left: 118px solid transparent;
+    border-bottom: 444.5px solid #E1E7EF;
+    }
+
+    .background .bottom-border {
+    border-left: 768px solid transparent;
+    border-bottom: 122px solid white;
+    }
+
+    [aria-controls="navbarDropdown"] {
+        display: block;
+      }
+    
+      [aria-expanded="false"]~.navbar .nav {
+        display: none;
+      }
+
+      [aria-expanded="true"]~.navbar {
+        background-color: var(--white);
+      }
+    
+      [aria-expanded="true"]~.navbar .nav {
+        position: absolute;
+    top: 86px;
+    left: 0px;
+    width: 768px;
+    height: 681px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6px 14px;
+    gap: 73px;
+    background: var(--white);
+      }
+    
+      [aria-expanded="true"]~.navbar .nav ul li a {
+        margin-right: var(--size-20);
+        color: var(--font-color-dark);
+      }
+
+      .hero-section {
+        flex-direction: column;
+      }
+
+      .hero-section .left-part {
+        align-items: center;
+      }
 }

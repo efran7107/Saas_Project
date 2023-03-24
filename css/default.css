@@ -296,8 +296,12 @@ img {
     }
 }
 
-@media (max-width: 768px) {
-    .container {
-        max-width: 768px;
+@media (min-width: 768px) {
+    .navbar {
+        max-width: 48rem;
     }
 }
+
+@media (min-width: 760px) {
+    
+  }
