@@ -28,20 +28,23 @@
 
       [aria-expanded="true"]~.navbar {
         background-color: var(--white);
+        border-bottom: 1px solid #677788;
+        width: 48rem;
+        height: 5.375rem;
       }
-    
+
       [aria-expanded="true"]~.navbar .nav {
         position: absolute;
-    top: 86px;
-    left: 0px;
-    width: 768px;
-    height: 681px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 6px 14px;
-    gap: 73px;
-    background: var(--white);
+        top: 86px;
+        left: 0px;
+        width: 768px;
+        height: 681px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 86px 6px 14px;
+        gap: 73px;
+        background: var(--white);
       }
     
       [aria-expanded="true"]~.navbar .nav ul li a {

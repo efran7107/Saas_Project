@@ -296,12 +296,8 @@ img {
     }
 }
 
-@media (min-width: 768px) {
-    .navbar {
+@media (max-width: 768px) {
+    .header .for-ground .navbar {
         max-width: 48rem;
     }
 }
-
-@media (min-width: 760px) {
-    
-  }
