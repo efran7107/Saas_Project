@@ -55,10 +55,11 @@ a {
     text-decoration: none;
     font-family: 'Inter', sans-serif;
     color: #677788;
+    margin: 0px;
 }
 
 p {
-    margin-top: 0;
+    margin: 0;
     color: var(--font-color-dark);
     font-family: 'Inter', sans-serif;
     font-weight: 500;
@@ -95,7 +96,6 @@ img {
 .with-sketch {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
     align-items: center;
     padding: 0px;
     gap: var(--size-10);

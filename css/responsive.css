@@ -15,7 +15,11 @@
 
     .background .bottom-border {
     border-left: 768px solid transparent;
-    border-bottom: 122px solid white;
+    border-bottom: 130px solid white;
+    }
+
+    .header {
+      height: 46.875rem;
     }
 
     [aria-controls="navbarDropdown"] {
@@ -58,5 +62,145 @@
 
       .hero-section .left-part {
         align-items: center;
+        justify-content: unset;
+        width: 44.5rem;
+        height: 19.0625rem;
       }
-}
+
+      .left-part .title {
+        text-align: center;
+      }
+
+      .left-part .play {
+        justify-content: center;
+      }
+
+      .hero-section .right-part {
+        width: 44.5rem;
+      }
+
+      .right-part .asana {
+        left: 33.3125rem;
+        top: 0px;      
+      }
+
+      .right-part .calandar {
+        left: 32.3125rem;
+        top: 14.3125rem;
+      }
+
+      .right-part .weave {
+        left: 25.875rem;
+        top: 6.1875rem;
+      }
+
+      .right-part .paypal {
+        left: 7rem;
+        top: 6.1875rem;
+      }
+
+      .right-part .atlassian {
+        left: 17.9375rem;
+        top: 0rem;
+      }
+
+      .right-part .google-ads {
+        left: 14.375rem;
+        top: 13.0625rem;
+      }
+
+      .right-part .google {
+        left: 110px;
+        top: 0rem;
+      }
+
+      .key-benefits-section .container {
+        padding: 5rem 0rem;
+        width: 48rem;
+        height: 53.6875rem;
+      }
+
+      .key-benefits-section .benefits-title {
+        gap: .625rem;
+      }
+
+      .key-benefits-section .benefits-cards {
+        flex-direction: column;
+        width: 48rem;
+        height: 35.875rem;
+      }
+
+      .benefits-cards .top-row,
+      .benefits-cards .bottom-row {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 1.875rem;
+      }
+
+      .top-row .responsive,
+      .bottom-row .responsive {
+        height: 16.375rem;
+      }
+
+      .responsive a {
+        font-weight: 700;
+        color: var(--font-color-link);
+      }
+
+      .with-sketch a {
+        color: var(--white)
+      }
+
+      .software .banner-content {
+        flex-direction: column;
+        justify-content: unset;
+      }
+
+      .banner-content .left-part {
+        padding: 1.6875rem var(--size-30);
+        height: 11.875rem;
+        width: 44.25rem;
+      }
+
+      .banner-content .left-part .title {
+        align-items: center;
+        justify-content: center;
+        width: 40.5rem;
+      }
+
+      .banner-content .left-part .actions {
+        justify-content: center;
+        width: 40.5rem;
+      }
+
+      .banner-content .right-part {
+        width: 44.25rem;
+        height: 22.0625rem;
+      }
+
+      .banner-content .right-part img {
+        width: 44.25rem;
+      }
+
+      .bullet-top:before,
+      .bullet-top:after{
+        width: 3.6563rem;
+      }
+
+      .banner-frame,
+       .banner-frame .img-container {
+        width: 48rem;
+        height: 22.75rem;
+      }
+
+      .banner-frame .play-button {
+        left: 768px;
+        top: 7.8125rem;
+      }
+
+      .banner-frame .img-container{
+        height: 19.9375rem;
+      }
+    }
