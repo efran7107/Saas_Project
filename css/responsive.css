@@ -190,17 +190,72 @@
       }
 
       .banner-frame,
-       .banner-frame .img-container {
+      .banner-frame .img-container {
         width: 48rem;
         height: 22.75rem;
       }
 
+      .banner-frame .img-container .img {
+        width: 44.25rem;
+        height: 19rem;
+        background-size: 44.25rem 19rem;
+      }
+
       .banner-frame .play-button {
-        left: 768px;
+        left: 19.9375rem;
         top: 7.8125rem;
       }
 
       .banner-frame .img-container{
-        height: 19.9375rem;
+        height: 19.3125rem;
       }
+
+      .hubspot .container {
+        flex-direction: column;
+        padding: 0px 0px var(--size-40);
+        width: 48rem;
+      }
+
+      .hubspot .hubspot-left {
+        position: unset;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 0px 0px 6.9375rem;
+        width: 768px;
+        height: 560px;
+      }
+
+      .hubspot-left .img-container {
+        width: 33.875rem;
+        height: 35rem;
+      }
+
+      .hubspot-right {
+        align-items: center;
+        width: 48rem;
+        height: 15.75rem;
+        padding: 0rem;
+      }
+
+      .hubspot-right .description {
+        align-items: center;
+        justify-content: center;
+        width: 37.5rem;
+      }
+
+      .description p{
+        text-align: center;
+      }
+
+      .hubspot-right .person {
+        padding: 0px var(--size-20) 0px 0px;
+        gap: .25rem;
+        height: 2.6875rem;
+      }
+
+      .hubspot-right .person p{
+        line-height: 1.0625rem;
+      }
+
     }
