@@ -223,6 +223,7 @@
     }
     .plans-features-list {
         flex-direction: column;
+        height: 52.0625rem;
     }
     .plans-features-list .plan {
         align-items: center;
@@ -243,7 +244,7 @@
         width: 37.5rem;
     }
     .plans-features-list .plan-features {
-        width: 680px;
+        width: 42.5rem;
         align-items: center;
     }
     .plan-features .plan-row-1,
@@ -253,5 +254,78 @@
     .plan-features .plan-row-1 .plan-feature-Item,
     .plan-features .plan-row-2 .plan-feature-Item {
         width: 20.9375rem;
+    }
+    .hire-us .hire {
+        flex-direction: column;
+        height: 57.75rem;
+    }
+    .hire .left-area {
+        flex-direction: row;
+        align-items: center;
+        padding: var(--size-40) var(--size-30) var(--size-20);
+        width: 48.125rem;
+        height: 15rem;
+    }
+    .top .hire-us-title {
+        width: 24.75rem;
+        height: 6.25rem;
+    }
+    .hire-us-title .title h2 {
+        margin: 0rem;
+    }
+    .top .phrase {
+        width: 22.6875rem;
+    }
+    .hire-us-title hr {
+        width: 24.75rem;
+    }
+    .left-area .bottom {
+        gap: var(--size-30);
+        height: 8.3125rem;
+        width: 15.875rem;
+    }
+    .bottom .person {
+        padding: 0rem;
+    }
+    .person p {
+        font-size: var(--size-14);
+    }
+    .hire .right-area {
+        width: 48rem;
+        height: 42.75rem;
+    }
+    .right-area .form {
+        width: 44.25rem;
+        height: 39rem;
+    }
+    .form-group #first-name,
+    .form-group #last-name,
+    .form-group #budget,
+    .form-group #country {
+        width: 19.625rem;
+    }
+    .form-data .text-area #tell-us {
+        width: 40.5rem;
+    }
+    .frame-2 .address {
+        width: 15.6875rem;
+    }
+    .frame-2 .footer-support {
+        flex-direction: column;
+        gap: 3.0625rem;
+    }
+    .footer-support .footer-row-1,
+    .footer-support .footer-row-2 {
+        width: 26.0625rem;
+        height: 10.375rem;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0rem;
+        gap: 5rem;
+    }
+    .footer-support .footer-row-2 {
+        width: 19rem;
+        gap: 3.375rem;
     }
 }
